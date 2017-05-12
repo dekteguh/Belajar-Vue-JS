@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Vue JS Tutorial - Introduction</title>
+        <link href="style.css" rel="stylesheet" />
+        <!-- Tempatkan library vue di bawah ini -->
+        <script src="https://unpkg.com/vue"></script>
+    </head>
+    <body>
+        <div id="vue-app">
+            <h1>Events</h1>
+            <!--<button v-on:click="umur++">Tambah satu tahun</button>-->
+            <!--<button v-on:click="umur\-\-">Kurangin satu tahun</button>-->
+            
+            <button v-on:click="tambahTahun">Tambah satu tahun</button>
+            <button v-on:click="kurangTahun">Kurangi satu tahun</button>
+        
+            <p>Umur saya adalah {{ umur }} tahun </p>
+
+            <div id="canvas" v-on:mousemove="updateXY">{{x}} {{y}}</div>
+        </div>
+        <!-- Vue js code di sini -->
+        <script src="app.js"></script>
+    </body>
+</html>
