@@ -1,6 +1,8 @@
 ## Belajar Vue JS dari The Net Ninja
+Belajar Vue JS melalui video tutorial dari YouTube, melalui Playlist [https://www.youtube.com/watch?v=5LYrN_cAJoA&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa](The Net Ninja - Vue JS 2 Tutorial)
 
 ### TO DO
+
 [x] Introduction
 [x] The Vue Instance
 [x] Data and Methods
